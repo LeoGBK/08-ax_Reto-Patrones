@@ -5,7 +5,7 @@ let usuarios = [];
 // This module function adds a new name to the list "usuarios".
 export function agregar(nombre) {
     usuarios.push(nombre);
-    console.log(`Usuario ${nombre} agregado.`);
+    console.log(`Usuario '${nombre}' agregado.`);
 }
 
 // This module function displays the content of the list "usuarios".
