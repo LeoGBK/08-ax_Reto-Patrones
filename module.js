@@ -7,8 +7,8 @@ export function agregar(nombre) {
     usuarios.push(nombre);
     setInterval(() => {
         
-    }, 2000);
-    console.log(`Usuario S{nombre} agregado.`)
+    }, 5000);
+    console.log(`Usuario ${nombre} agregado.`)
 }
 
 // This module function displays the content of the list "usuarios".
