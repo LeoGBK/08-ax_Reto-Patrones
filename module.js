@@ -9,9 +9,9 @@ export function agregar(nombre) {
 }
 
 // This module function displays the content of the list "usuarios".
-export function mostrar(lista) {
+export function mostrar() {
     setTimeout(() => {}, 2000);
     console.log("Lista de usuarios:")
     setTimeout(() => {}, 2000);
-    console.log(lista);
+    console.log(usuarios);
 }
