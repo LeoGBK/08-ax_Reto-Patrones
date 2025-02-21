@@ -19,3 +19,5 @@ function mostrar(lista) {
     }, 2000);
     console.log(lista);
 }
+
+export default mostrar;
