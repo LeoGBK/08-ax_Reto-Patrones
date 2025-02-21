@@ -13,5 +13,9 @@ function agregar(nombre) {
 
 // This module function displays the content of the list "usuarios".
 function mostrar(lista) {
+    console.log("Lista de usuarios:")
+    setInterval(() => {
+        
+    }, 2000);
     console.log(lista);
 }
